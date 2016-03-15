@@ -1,0 +1,18 @@
+<form class="form-horizontal" role="form" ng-submit="addProduct(productName, productDesc, productPrice)">
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" id="productName" placeholder="Chicken Patties">
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <input type="text" class="form-control" id="productDesc" placeholder="Description">
+    </div>
+    <div class="form-group">
+        <label class="sr-only">Amount (in dollars)</label>
+        <div class="input-group">
+            <div class="input-group-addon">$</div>
+            <input type="number" step="any" class="form-control" id="productPrice" placeholder="Amount">
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

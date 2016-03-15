@@ -1,0 +1,13 @@
+client: 
+  type: transport
+  transport.sniff: false
+  transport.initial_nodes: localhost:9300
+  
+cluster:
+  name: sridhar
+node:
+  name: node-1
+  
+# Prevent the internal http server from starting.
+http:
+  enabled: false
